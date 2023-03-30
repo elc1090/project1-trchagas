@@ -23,6 +23,26 @@
       color: white;
       padding: 15px;
     }
+
+    .title {
+        font-weight: bold;
+    }
+
+    .subtitle {
+        color:#C3C3C3;
+    }
+    .dark-red {
+        color: #bf1313;
+    }
+    .img-circle {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+    .figure {
+        width: 50%;
+        height: 50%;
+    }
     
     /* On small screens, set height to 'auto' for sidenav and grid */
     @media screen and (max-width: 767px) {
@@ -35,89 +55,88 @@
   </style>
 </head>
 <body>
+<main>
+    <header class="container-fluid">
+    <div class="row content">
+        <div class="col-sm-3 sidenav">
+        <h4>Site de notícias</h4>
+        <ul class="nav nav-pills nav-stacked">
+            <li><a href="#section1">Início</a></li>
+            <li class="active"><a href="#section2">Notícias</a></li>
+            <li><a href="#section3">Avaliações</a></li>
+        </ul><br>
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Pesquisar artigo">
+            <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+                <span class="glyphicon glyphicon-search"></span>
+            </button>
+            </span>
+        </div>
+        </div>
 
-<div class="container-fluid">
-  <div class="row content">
-    <div class="col-sm-3 sidenav">
-      <h4>Site de notícias</h4>
-      <ul class="nav nav-pills nav-stacked">
-        <li><a href="#section1">Início</a></li>
-        <li class="active"><a href="#section2">Notícias</a></li>
-        <li><a href="#section3">Avaliações</a></li>
-      </ul><br>
-      <div class="input-group">
-        <input type="text" class="form-control" placeholder="Pesquisar artigo">
-        <span class="input-group-btn">
-          <button class="btn btn-default" type="button">
-            <span class="glyphicon glyphicon-search"></span>
-          </button>
-        </span>
-      </div>
-    </div>
+        <div class="col-sm-9">
+        
+        <h2 class="title">Bloodborne 2? FromSoftware estaria trabalhando em novo jogo não anunciado</h2>
+        <h3 class="subtitle">Chefe de game design de Elden Ring e co-diretor de Armored Core 6, Kenneth Chan também trabalha em um terceiro projeto do estúdio japonês ainda não revelado</h3>
+        <h4 class="author">Escrito por Gabriel Sales <span class="glyphicon glyphicon-time"></span> Atualizado 28 de Março de 2023 às 10:54</h4>
+        <h4 class="subtitle"><span class="glyphicon glyphicon-envelope"></span> Publicado 28 de Março de 2023 às 10:14</h4>
+        <p>A FromSoftware se tornou, desde o lançamento do primeiro Dark Souls, um dos dos estúdios de maior sucesso da indústria dos games, e uma grande parcela dos fãs da desenvolvedora sonha até hoje com uma sequência para Bloodborne ou um novo game para a série Souls, e existe, sim, a possibilidade de um novo RPG de ação da From ser anunciado em breve.</p>
+        <p>De acordo com informações disponíveis no LinkedIn do game designer da FromSoftware Kenneth Chan, a desenvolvedora japonesa trabalha desde janeiro de 2022 em um jogo com nome ainda não revelado. Chan, vale ressaltar, é produtor e co-diretor de Armored Core VI: Fires of Rubicon e chefe de game design de Elden Ring, e ambos os projetos estão listados no LinkedIn do profissional, o que significa que o terceiro jogo no perfil do game designer se trata mesmo de um título inédito e que, até o momento, é mantido em sigilo pela From Software.</p>
+        <img class="figure" src="https://sm.ign.com/t/ign_br/screenshot/default/kenneth-chan-linkedin-1_vsmw.960.jpg"></img>
+        
+        <h3 class="dark-red font-weight-bold">From Software tem trabalhado em múltiplos projetos</h3>
+        <br><br>
 
-    <div class="col-sm-9">
-      
-      <h2>Bloodborne 2? FromSoftware estaria trabalhando em novo jogo não anunciado</h2>
-      <h5>Escrito por Gabriel Sales <span class="glyphicon glyphicon-time"></span> Atualizado 28 de Março de 2023 às 10:54 <span class="glyphicon glyphicon-time"></span> Publicado 28 de Março de 2023 às 10:14</h5>
-      <h5><span class="label label-danger">Food</span> <span class="label label-primary">Ipsum</span></h5><br>
-      <p>Food is my passion. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <br><br>
-      
-      <h4><small>RECENT POSTS</small></h4>
-      <hr>
-      <h2>Officially Blogging</h2>
-      <h5><span class="glyphicon glyphicon-time"></span> Post by John Doe, Sep 24, 2015.</h5>
-      <h5><span class="label label-success">Lorem</span></h5><br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <hr>
-
-      <h4>Leave a Comment:</h4>
-      <form role="form">
-        <div class="form-group">
-          <textarea class="form-control" rows="3" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-success">Submit</button>
-      </form>
-      <br><br>
-      
-      <p><span class="badge">2</span> Comments:</p><br>
-      
-      <div class="row">
-        <div class="col-sm-2 text-center">
-          <img src="bandmember.jpg" class="img-circle" height="65" width="65" alt="Avatar">
-        </div>
-        <div class="col-sm-10">
-          <h4>Anja <small>Sep 29, 2015, 9:12 PM</small></h4>
-          <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <br>
-        </div>
-        <div class="col-sm-2 text-center">
-          <img src="bird.jpg" class="img-circle" height="65" width="65" alt="Avatar">
-        </div>
-        <div class="col-sm-10">
-          <h4>John Row <small>Sep 25, 2015, 8:25 PM</small></h4>
-          <p>I am so happy for you man! Finally. I am looking forward to read about your trendy life. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <br>
-          <p><span class="badge">1</span> Comment:</p><br>
-          <div class="row">
+        <h4>Escreva um comentário:</h4>
+        <form role="form">
+            <div class="form-group">
+            <textarea class="form-control" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+        <br><br>
+        
+        <p><span class="badge">2</span> Comentários:</p><br>
+        
+        <div class="row">
             <div class="col-sm-2 text-center">
-              <img src="bird.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+            <img src="https://thumbs.dreamstime.com/b/default-avatar-profile-vector-user-profile-default-avatar-profile-vector-user-profile-profile-179376714.jpg" class="img-circle" height="65" width="65" alt="Avatar">
             </div>
-            <div class="col-xs-10">
-              <h4>Nested Bro <small>Sep 25, 2015, 8:28 PM</small></h4>
-              <p>Me too! WOW!</p>
-              <br>
+            <div class="col-sm-10">
+            <h4>Fulano <small>Mar, 2023, 10:54</small></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <br>
             </div>
-          </div>
+            <div class="col-sm-2 text-center">
+            <img src="https://thumbs.dreamstime.com/b/default-avatar-profile-vector-user-profile-default-avatar-profile-vector-user-profile-profile-179376714.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+            </div>
+            <div class="col-sm-10">
+            <h4>Ciclano <small>Mar, 2023, 10:54</small></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <br>
+            <p><span class="badge">1</span> Respostas:</p><br>
+            <div class="row">
+                <div class="col-sm-2 text-center">
+                <img src="https://thumbs.dreamstime.com/b/default-avatar-profile-vector-user-profile-default-avatar-profile-vector-user-profile-profile-179376714.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+                </div>
+                <div class="col-xs-10">
+                <h4>Fulanin <small>Mar, 2023, 10:54</small></h4>
+                <p>Lorem ipsum dolor sit amet</p>
+                <br>
+                </div>
+            </div>
+            </div>
         </div>
-      </div>
+        </div>
     </div>
-  </div>
-</div>
+    </header>
 
-<footer class="container-fluid">
-  <p>Tiago Chagas</p>
-</footer>
+    <footer class="container-fluid">
+    <p>Tiago Chagas</p>
+    </footer>
+</main>
+</body>
 
 </body>
 </html>
