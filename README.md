@@ -1,5 +1,7 @@
 # Site estático - Página de notícia
 
+Link do site: https://elc1090.github.io/project1-trchagas/
+
 ![image](https://user-images.githubusercontent.com/49379007/229808841-6cc26b1c-9959-4133-b7c0-f3e87ecd8191.png)
 
 #### Desenvolvedor(a)
